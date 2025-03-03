@@ -1,0 +1,25 @@
+start
+new number1 number
+new number2 number
+new number3 number
+new number4 number
+new month number
+new year number
+new name string
+set number1 8173
+set number2 7192
+set nuber3 2901
+set number4 1990
+set month 11
+set year 27
+set name "Ekaterina Krasnova"
+log string "---------------------------"
+log string "|                         |"
+log string "|                         |"
+log string "|     " >> number1 >> " " >> number2 >> " " >> number3 >> " " >> number4 >> "  |"
+log string "|                         |"
+log string "|           " >> month >> "/" >> year >> "         |"
+log string "|   " >> name >> "    |" 
+log string "|                         |"
+log string "---------------------------"
+finish
