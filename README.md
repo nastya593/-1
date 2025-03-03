@@ -1,0 +1,3 @@
+start
+log string "Привет мир"
+finish
