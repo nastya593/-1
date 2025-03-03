@@ -1,0 +1,7 @@
+start
+log string "H       H"
+log string "H       H"
+log string "HHHHHHHHH"
+log string "H       H"
+log string "H       H"
+finish
