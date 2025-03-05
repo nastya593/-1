@@ -1,6 +1,7 @@
 start
 new number number
 new i number
+set number 1
 set i 1
 loop table (i <= 10)
   log number number >> " * 1 = " >>  number + 1
