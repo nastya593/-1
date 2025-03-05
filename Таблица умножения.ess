@@ -4,7 +4,7 @@ new i number
 set number 1
 set i 1
 loop table (10 > i)
-  log number number >> " * 1 = " >>  number + 1
+  log string number >> " * 1 = " >>  number
   set number number + 1
 end table
 finish
