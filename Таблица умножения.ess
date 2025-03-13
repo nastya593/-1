@@ -1,11 +1,12 @@
 start
-new number number
+new num number
+set num 2
 new i number
-set number 1
 set i 1
-loop table (10 > i)
-  log string number >> " * 1 = " >>  number
-  number number + 1
-  set i i + 1 
-end table
+log string "1 * 1 = 1"
+new counter string
+loop counter (11 > num)
+    log string "1 * " >> num >> " = " >> num
+    set num num + 1
+end counter
 finish
