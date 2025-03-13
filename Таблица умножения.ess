@@ -6,6 +6,6 @@ set i 1
 loop table (10 > i)
   log string number >> " * 1 = " >>  number
   number number + 1
-  i i + 1 
+  set i i + 1 
 end table
 finish
